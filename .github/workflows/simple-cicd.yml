@@ -30,4 +30,4 @@ jobs:
           key: ${{ secrets.SSH_PEM_KEY }}
           script: |
             cd $HOME/${{ github.repository_id }}
-            docker compose up -d --build
+            docker-compose up -d --build
