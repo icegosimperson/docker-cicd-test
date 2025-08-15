@@ -7,3 +7,4 @@ RUN npm install
 COPY ./server.js ./
 
 CMD ["npm","start"]
+
